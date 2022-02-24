@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4xj33d1Q6i3J1XgtrUaCPdES2E1U0UcsknKM9CEqbRwzLJk6fQ3khWm86ix8nICx44N8Ba+V+nsJWhIhycgEuw==",
+  "dgSpecHash": "5za0gFJ7zNyufoZ/nHQ2jq6QqR0+lzKhTY5LOgPirYOIVqGoXomQp33ZYHajASV5xSFyTg2svQU87gVqA0YvBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Desktop\\Eventure-main\\Eventures\\Eventures.App.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Documents\\Krisi 12b\\Eventures\\Eventure-main\\Eventures\\Eventures.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",

@@ -1,3 +1,4 @@
+using Eventures.App.Infrastructure;
 using Eventures.Data;
 using Eventures.Domain;
 using Microsoft.AspNetCore.Builder;
@@ -33,7 +34,9 @@ namespace Eventures
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddIdentity<EventuresUser, IdentityRole>()
+            //   services.AddIdentity<EventuresUser, IdentityRole>();
+            services.AddDefaultIdentity<EventuresUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
             services.AddControllersWithViews();
@@ -54,6 +57,7 @@ namespace Eventures
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //app.PrepareDatabase();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
